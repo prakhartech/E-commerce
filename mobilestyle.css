@@ -1,0 +1,435 @@
+body{
+  margin: 0px auto;
+  width: 100%;
+}
+.top{
+  width: 100%;
+  height: 160px;
+  position:fixed;
+  top: 0;
+  z-index: 2;
+
+  
+  
+}
+
+.top .navheader {
+
+  height: 100px;
+  background-color: #204051;
+
+
+  
+}
+
+.top .navheader .logo{
+
+  float:left;
+
+
+}
+
+.top .navheader .logo img{
+
+  width: 140px;
+  height:88px;
+  padding-left: 40px;
+
+}
+
+.top .navheader .search-box{
+ 
+  position: absolute;
+  left: 41%;
+  top: 25px;
+  height: 20px;
+  background: #e4e3e3;
+  border-radius: 40px;
+
+  padding: 15px;
+  
+}
+
+
+.top .navheader .search-box .search-btn{
+
+  color:   #204051;
+  float: right;
+  
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #e4e3e3;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+.top .navheader .search-box input{
+
+  border: none;
+  outline: none;
+  background: none;
+  float: left;
+  padding: 0;
+  color: #204051;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 270px;
+  
+}
+
+.top .navheader .login{
+  float:right;
+  padding-right: 35px;
+  padding-top:25px;
+
+}
+
+.top .navheader .login button{
+
+  width: 150px;
+  height: 50px;
+  border-radius: 20%;;
+  background: #f2af58;
+  box-shadow: 0px 0px 4px 1px #e4e3e3;
+  color: #204051;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.top .nav2{
+
+  height: 60px;
+  background-color: #f2af58;
+   box-shadow: 0px 0px 5px 0px #000000a8;
+
+
+
+}
+
+.top .nav2 .categories{
+
+  width:100%;
+  height: 60px;
+  text-align: center;
+  
+  padding-top: 0px;
+}
+
+
+
+
+
+.top .nav2 .categories .list th{
+ 
+  color: #204051;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+
+}
+.top .nav2 .categories .list th:hover{
+  
+  border: 1px solid #000000a8;
+}
+
+.top .nav2 .categories .list  th a{
+   text-decoration:none;
+    color: #204051;
+}
+
+.top .nav2 .categories .list .mob a{
+  color: #e4e3e3;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+
+  .top{
+    width: 100%;
+    
+  }
+
+
+  .top .navheader .logo img{
+
+  width: 80px;
+  height:70px;
+  padding-left: 2px;
+  padding-top: 15px;
+
+}
+.top .nav2 .categories .list th{
+ 
+  color: #204051;
+  padding-left: 5px;
+  padding-right: 2px;
+  font-size: 10px;
+  
+  
+}
+
+.top .navheader .search-box{
+ 
+  position: absolute;
+  left: 25%;
+  top: 25px;
+  height: 20px;
+  background: #e4e3e3;
+  border-radius: 40px;
+
+  padding: 15px;
+  
+}
+
+.top .navheader .search-box input{
+  border: none;
+  outline: none;
+  background: none;
+  float: left;
+  padding: 0;
+  color: #204051;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 120px;
+  
+}
+
+.top .navheader .login{
+  float:right;
+  padding-right: 2px;
+  padding-top: 35px;
+
+}
+
+.top .navheader .login button{
+
+  width: 90px;
+  height: 35px;
+  border-radius: 20%;;
+  background: #f2af58;
+  box-shadow: 0px 0px 4px 1px #e4e3e3;
+  color: #204051;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content .phoneholder .mobiles img{
+  width: 150px;
+  height: 250px;
+}
+.content .shadow .icons .brandholder img{
+   width: 100px;
+  height: 80px;
+
+}
+.content .shadow .mobicon{
+  display: table !important;
+  height: 100px;
+  width: 100%;
+  background-color: #fff;
+  
+  margin-top: 0px;
+}
+
+.content .shadow .mobicon .mobbrandholder th img{
+
+  width: 100px;
+  height: 80px;
+
+}
+
+.content .shadow .icons .brandholder .samsung,.content .shadow .icons .brandholder .iphone, .content .shadow .icons .brandholder .infinix{
+  display: none;
+}
+
+.content .shadow .mobicon .mobbrandholder th a{
+  text-decoration:none;
+}
+
+.content .shadow .mobicon .mobbrandholder th h1{
+  color: #5c107a;
+}
+
+.content .shadow .mobicon .mobbrandholder th:hover{
+  border: 1px solid #000000a8;
+  
+}
+
+.content .phoneholder{
+   margin-top: 60px;
+}
+
+.content .phoneholder .mobiles .mobile3, .content .phoneholder .mobiles .mobile4{
+
+  display: none;
+
+}
+
+.content .mobphoneholder{
+
+   display: table !important;
+   width: 100%;
+   height: 300px;
+  
+
+  background: #fff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+}
+
+.content .mobphoneholder .mobmobiles img{
+  width: 150px;
+  height: 250px;
+}
+
+.content .mobphoneholder .mobmobiles th:hover{
+  border: 1px solid #000000a8;
+}
+
+.content .mobphoneholder .mobmobiles h1,.content .mobphoneholder .mobmobiles h5{
+  margin: 0 auto;
+  color: #204051;
+}
+
+.content .mobphoneholder .mobmobiles th a{
+  text-decoration: none;
+}
+
+.content .footer{
+  height:113px !important;
+  
+}
+.content .footer ul{
+  padding: 5px 15px !important;
+  font-size: 6px;
+}
+
+
+
+
+}
+.content{
+
+  width: 100%;
+ 
+  
+  
+  background: #fff;
+  padding-top: 160px;
+  
+  
+
+
+}
+
+.content .shadow .icons{
+
+  width:100%;
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px #000000a8;
+
+}
+
+.content .shadow .mobicon{
+  display: none;
+}
+
+
+.content .shadow .icons .brandholder th:hover{
+  border: 1px solid #000000a8;
+  
+}
+
+.content .shadow .icons .brandholder img{
+  width: 100px;
+  height: 80px;
+}
+.content .shadow .icons .brandholder th a{
+  text-decoration:none;
+}
+
+.content .shadow .icons .brandholder h1{
+  color: #5c107a;
+}
+
+.content .phoneholder{
+  width: 100%;
+  height: 300px;
+  box-shadow: 0px 0px 5px 0px #000000a8; 
+
+  background: #fff;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.content .phoneholder .mobiles{
+  width: 100%;
+  height: 90px;
+
+}
+
+.content .mobphoneholder{
+  display: none;
+}
+
+.content .phoneholder .mobiles th a{
+  text-decoration: none;
+}
+.content .phoneholder .mobiles th:hover{
+  border: 1px solid #000000a8;
+}
+
+.content .phoneholder .mobiles h1,.content .phoneholder .mobiles h5{
+  margin: 0 auto;
+  color: #204051;
+}
+
+.content .phoneholder .mobiles img{
+  width: 150px;
+  height: 250px;
+}
+
+
+
+
+.content .footer{
+
+  width: 100%;
+  height: 150px;
+  background-color: #204051;
+  padding-top: 5px;
+  box-shadow: 0px 0px 10px 0px #000000a8;
+  text-align: left;
+
+}
+
+
+.content .footer ul{
+  list-style: none;
+  padding-top: 5px;
+  float: left;
+  color: #e4e3e3;
+  padding-left: 70px;
+  padding-right: 70px;
+  
+}
+
+.content .footer ul li{
+  padding-top: 5px;
+}
+
+.content .footer .policy{
+  border-right: 2px solid #84a9ac;
+}
+
+.content .footer ul li a{
+  text-decoration: none;
+  color: #e4e3e3;
+}
